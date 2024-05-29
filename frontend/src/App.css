@@ -6,9 +6,5 @@ body {
   display: flex;
   gap: 10px;
   width: 100%;
-  justify-content: flex-end;
   background-color: rgb(209, 209, 255);
-}
-.navbar h3 {
-  margin-right: 35px;
 }
