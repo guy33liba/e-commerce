@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-left: 100px;
-  gap: 30px;
+  gap: 50px;
 }
 .name {
   margin-top: 20px;

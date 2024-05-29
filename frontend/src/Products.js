@@ -1,6 +1,6 @@
 const products = [
   {
-    rating: 5,
+    rating: 2.3,
     reviews: [],
     price: 1200,
     countInStock: 4,
@@ -12,7 +12,7 @@ const products = [
       " Model Name Zeb-Yoga 101 Color Red Headphone Type In the Ear Inline Remote Yes Sales Package 1 Headphone, 2 Pair of Earbuds, 2 Pair of Earhooks, Charging Cable, User Manual Connectivity Bluetooth Headphone Design Behind the Neck Product Details Sweat Proof No Foldable/Collapsible Yes Deep Bass Yes Water Resistant No Monaural No Controls Volume Control, Magnetic Switch Control Other Features Magnetic Earpiece, Voice Assistance Support With Microphone Yes Sound Features Impedance 32 Ohms Connectivity Features Bluetooth Version 4.2 Battery Life 7 hrs Charging Time 2 Play Time 7 hrs Standby Time 100 hrs Dimensions Weight 19 g Warranty Domestic Warranty 1 Year Warranty Summary 1 Year Carry into Service Centre Warranty Warranty Service Type Carry-in to Service Centre or Call our Customer Care - 9360942527 Covered in Warranty Manufacturing Defects Not Covered in Warranty Any Physical Damage and Accessories",
   },
   {
-    rating: 5,
+    rating: 2,
     reviews: [],
     price: 15000,
     countInStock: 0,
@@ -47,7 +47,7 @@ const products = [
       "Product Code 87781 Sleeves Full Sleeves Pattern Checks Neck Collar Fit Slim Fabric 100% Cotton Country of Origin India Color Navy Category Shirts",
   },
   {
-    rating: 5,
+    rating: 3.3,
     reviews: [],
     price: 800,
     countInStock: 7,
@@ -59,7 +59,7 @@ const products = [
       "2.4 GHz Wireless connection Shape of the mouse supports hand for comfortable use Wireless range of up to 33 feet",
   },
   {
-    rating: 5,
+    rating: 1.5,
     reviews: [],
     price: 56000,
     countInStock: 6,

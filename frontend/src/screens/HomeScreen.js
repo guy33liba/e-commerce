@@ -28,7 +28,7 @@ const HomeScreen = () => {
           <img style={{ width: "200px", height: "200px" }} src={product.image} alt={product.name} />
           <div>
             {renderStars(product.rating)}
-            {product.rating}
+            <span style={{ marginLeft: "10px", fontSize:'25px'}}>{product.rating}</span>
           </div>
           <div className="name">{product.name}</div>
           <div>{product.reviews}</div>
