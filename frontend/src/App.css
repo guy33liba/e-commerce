@@ -14,3 +14,9 @@ body {
   gap: 30px;
   margin-left: 50%;
 }
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  gap: 30px;
+}

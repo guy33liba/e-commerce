@@ -8,15 +8,15 @@ const HomeScreen = () => {
       {products.map((product) => {
         return (
           <div>
-            <div>{product.name}</div>
+            <img style={{ width: "200px", height: "200px" }} src={product.image} />
             <div>
               <BsStarHalf />
               <BsFillStarFill />
               {product.rating}
             </div>
+            <div>{product.name}</div>
             <div>{product.reviews}</div>
             <div>{product.price}</div>
-            <img style={{ width: "200px", height: "200px" }} src={product.image} />
 
             <div>{product.category}</div>
             <div>{product.countInStock}</div>
