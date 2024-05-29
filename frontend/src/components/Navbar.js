@@ -12,7 +12,9 @@ const Navbar = () => {
       <h3>
         <Link to="/pricing">Pricing</Link>
       </h3>
-      <Link></Link>
+      <h3>
+        <Link to="/disabled">Disabled</Link>
+      </h3>
     </div>
   )
 }
