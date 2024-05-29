@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="navbar">
-        <h2 style={{ marginRight: "350px" }}>
+        <h2 style={{ marginRight: "300px" }}>
           <Link style={{ color: "blue" }} to="/home">
             My Shop
           </Link>
