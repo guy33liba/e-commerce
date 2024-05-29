@@ -31,7 +31,7 @@ const products = [
     name: "New Inspiron 15 5509 Laptop",
     category: "electronics",
     image:
-      "https://i.dell.com/is/image/DellContent//content/dam/global-asset-library/Products/Notebooks/Inspiron/15_5508_non-touch/in5508nt_cnb_00055lf110_gr.psd?fmt=pjpg&pscan=auto&scl=1&hei=402&wid=668&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0&size=668,402",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTe7rwlIsZ2mBtmUzNwgfrA3PbIUYu7OV5EKX-ckzAe8_hp2buC5Fj1OKjTBMYNyGwCAgy_My4f90RkkNKh92XRzBFiyZaqb-0SX_bsfFfbwJHKS81QgQxDcfebW-WKHu7s4Bv8Qc8jzw&usqp=CAc",
     description:
       "11th Generation Intel® Core™ i3-1115G4 Processor (6MB Cache, up to 4.1 GHz)  laptop Windows 10 Home Single Language, English  videocard Intel® UHD Graphics with shared graphics memory  memory 8GB, 1x8GB, DDR4, 3200MHz  harddrive 512GB M.2 PCIe NVMe Solid State Drive  color Pebble (Top cover is Pebble color, Base and Palmrest are Black color)",
   },
