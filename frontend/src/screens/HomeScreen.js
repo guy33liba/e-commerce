@@ -28,10 +28,3 @@ const HomeScreen = () => {
 }
 
 export default HomeScreen
-// rating
-// reviews
-// price
-// countInStock
-// category
-// image
-// description
