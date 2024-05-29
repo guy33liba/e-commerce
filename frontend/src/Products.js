@@ -24,7 +24,7 @@ const products = [
       "Quad camera setup - 64MP (F1.8) main camera + 12MP (F2.2) ultra wide camera + 5MP (F2.4) depth camera + 5MP (F2.4) macro camera and 32MP (F2.2) front camera 16.95 cm (6.7-inch) sAMOLED Plus - Infinity-O display, FHD+ capacitive touchscreen with 1080 x 2400 pixels resolution, Contrast Ratio: 78960:1 Memory, Storage & SIM: 6GB RAM, 128GB internal memory expandable up to 512GB | Dedicated Memory slot Android v10.0 operating system with 2.2GHz+1.8GHz Qualcomm | SD730G octa core processor",
   },
   {
-    rating: 4.25,
+    rating: 4,
     reviews: [],
     price: 48000,
     countInStock: 5,
@@ -36,7 +36,7 @@ const products = [
       "11th Generation Intel® Core™ i3-1115G4 Processor (6MB Cache, up to 4.1 GHz)  laptop Windows 10 Home Single Language, English  videocard Intel® UHD Graphics with shared graphics memory  memory 8GB, 1x8GB, DDR4, 3200MHz  harddrive 512GB M.2 PCIe NVMe Solid State Drive  color Pebble (Top cover is Pebble color, Base and Palmrest are Black color)",
   },
   {
-    rating: 4.5,
+    rating: 4.8,
     reviews: [],
     price: 4800,
     countInStock: 5,
