@@ -14,7 +14,7 @@ const HomeScreen = () => {
               <BsFillStarFill />
               {product.rating}
             </div>
-            <div>{product.name}</div>
+            <div  className="name">{product.name}</div>
             <div>{product.reviews}</div>
             <div>{product.price}</div>
 
@@ -22,7 +22,7 @@ const HomeScreen = () => {
             <div>{product.countInStock}</div>
           </div>
         )
-      })}
+      })} 
     </div>
   )
 }
