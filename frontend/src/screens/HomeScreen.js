@@ -4,7 +4,7 @@ import React from "react"
 import products from "../Products"
 const HomeScreen = () => {
   return (
-    <div>
+    <div className="products">
       {products.map((product) => {
         return (
           <div>
