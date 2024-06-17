@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.link {
+  color: rgb(0, 0, 255);
+  margin-right: 40px;
+  transition: 1s;
+}
+.link:hover {
+  transition: 1s;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-right: 1px solid black;
+  padding: 2.5rem;
+  width: 110px;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 10;
+}
+.navList {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.bImage {
+  width: 50px;
+}

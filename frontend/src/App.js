@@ -1,26 +1,29 @@
 import "./App.css"
-import Features from "./components/Features"
-import Home from "./components/Home"
-import Navbar from "./components/Navbar"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
-import Pricing from "./components/Pricing"
-import Disabled from "./components/Disabled"
-import Cart from "./components/Cart"
-import Login from "./components/Login"
-import HomeScreen from "./screens/HomeScreen"
+import Home from "./components/home/Home"
+import Contact from "./components/contact/Contact"
+import Projects from "./components/projects/Projects"
+import About from "./components/about/About"
+import Services from "./components/services/Services"
+import Resume from "./components/resume/Resume"
+import SideBar from "./components/sidebar/SideBar"
+import Testimonials from "./components/testemonials/Testimonials"
+import Blog from "./components/blog/Blog"
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navbar />
+        <SideBar />
         <Routes>
-          <Route path="/pricing" element={<Pricing />} />
-          <Route path="/homescreen" element={<HomeScreen />} />
-          <Route path="/features" element={<Features />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/disabled" element={<Disabled />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/sidebar" element={<SideBar />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </BrowserRouter>
     </div>
