@@ -40,7 +40,6 @@ const HomeScreens = () => {
           <div className="product-details">
             <div className="product-price">Price: ${item.price}</div>
 
-            <div className="product-rating">Rating: {renderStars(item.rating)}</div>
           </div>
         </div>
       ))}
