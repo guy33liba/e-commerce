@@ -37,13 +37,15 @@ const HomeScreens = () => {
             <div className="product-stock">Stock: {item.countInStock}</div>
             <div className="product-category">Category: {item.category}</div>
             <div className="product-description">
+              <br />
               {expandedItems[index] ? item.description : truncateDescription(item.description, 200)}
               {/* Conditional rendering for "Read more" and "Undo" buttons */}
               {!expandedItems[index] && item.description.length > 200 && (
                 <button className="read-more" onClick={() => toggleDescription(index)}>
-                  Read more
+                  Read More...
                 </button>
               )}
+              <br />
               {expandedItems[index] && (
                 <button className="undo" onClick={() => undoDescription(index)}>
                   close
