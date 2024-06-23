@@ -12,7 +12,7 @@ const products = [
       " Model Name Zeb-Yoga 101 Color Red Headphone Type In the Ear Inline Remote Yes Sales Package 1 Headphone, 2 Pair of Earbuds, 2 Pair of Earhooks, Charging Cable,",
   },
   {
-    rating: 5,
+    rating: 3,
     reviews: [],
     price: 15000,
     countInStock: 0,
