@@ -1,0 +1,19 @@
+.product-list {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-card {
+  width: 400px;
+  border: 1px solid black;
+  margin: 20px;
+  transition: 1s;
+}
+.product-image {
+  width: 400px;
+  height: 300px;
+}
+.product-name {
+  font-weight: bold;
+}

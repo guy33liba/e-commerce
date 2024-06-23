@@ -1,0 +1,45 @@
+/* App.css */
+
+.navbar {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 10px 20px; /* Padding around the navbar */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000; /* Text color */
+  margin-left: 200px;
+}
+
+.navbar-links ul {
+  list-style-type: none;
+  margin: 0;
+  margin-right: 200px;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 10px; /* Space between items */
+  font-size: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000000; /* Link color */
+  padding: 20px;
+  margin-right: 50px;
+}
+
+.nav-link:hover {
+  color: #007bff; /* Link color on hover */
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
