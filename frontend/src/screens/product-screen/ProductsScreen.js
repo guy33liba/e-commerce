@@ -1,9 +1,6 @@
 import React from "react"
-import products from "../../Products"
 
-const ProductsScreen = (match) => {
-  const productId = match.params.id
-  const product = products.find((product) => product.id === productId)
+const ProductsScreen = () => {
   return <div>ProductsScreen</div>
 }
 
