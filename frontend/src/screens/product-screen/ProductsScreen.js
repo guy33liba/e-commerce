@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
-const ProductsScreen = () => {
-  return (
-    <div>ProductsScreen</div>
-  )
+const ProductsScreen = (match) => {
+  const productId = match.params.id
+
+  return <div>ProductsScreen</div>
 }
 
 export default ProductsScreen
