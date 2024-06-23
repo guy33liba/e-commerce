@@ -1,6 +1,7 @@
 import React, { useState } from "react"
-import products from "../Products"
+import products from "../../Products"
 import "./HomeScreen.css" // Adjust this path based on your project structure
+import { BsFillStarFill, BsStar, BsStarHalf } from "react-icons/bs"
 
 const HomeScreens = () => {
   const [expandedItems, setExpandedItems] = useState({}) // State to track expanded descriptions
@@ -24,7 +25,23 @@ const HomeScreens = () => {
       [index]: false, // Set expanded state to false for specific index (undo)
     }))
   }
+  const renderStars = (rating) => {
+    const fullStars = Math.floor(rating)
+    const halfStar = rating % 1 !== 0
+    const emptyStars = 5 - fullStars - (halfStar ? 1 : 0)
 
+    return (
+      <>
+        {[...Array(fullStars)].map((_, index) => (
+          <BsFillStarFill key={`full-${index}`} />
+        ))}
+        {halfStar && <BsStarHalf />}
+        {[...Array(emptyStars)].map((_, index) => (
+          <BsStar key={`empty-${index}`} />
+        ))}
+      </>
+    )
+  }
   return (
     <div className="product-list">
       {products.map((item, index) => (
@@ -51,7 +68,7 @@ const HomeScreens = () => {
                   close
                 </button>
               )}
-            <div className="product-rating">Rating: {item.rating}</div>
+              <div className="product-rating">Rating: {renderStars(item.rating)}</div>
             </div>
           </div>
         </div>
