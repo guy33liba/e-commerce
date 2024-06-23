@@ -12,21 +12,22 @@ const HomeScreens = () => {
     setProducts(data)
   }
   const renderStars = (rating) => {
-    debugger
-    const fullStars = Math.floor(rating)
-    const halfStar = rating % 1 !== 0
-    const emptyStars = 5 - fullStars - (halfStar ? 1 : 0)
-    return (
-      <>
-        {[...Array(fullStars)].map((_, index) => (
-          <BsFillStarFill key={`full-${index}`} />
-        ))}
-        {halfStar && <BsStarHalf />}
-        {[...Array(emptyStars)].map((_, index) => (
-          <BsStar key={`empty-${index}`} />
-        ))}
-      </>
-    )
+    if (rating) {
+      const fullStars = Math.floor(rating)
+      const halfStar = rating % 1 !== 0
+      const emptyStars = 5 - fullStars - (halfStar ? 1 : 0)
+      return (
+        <>
+          {[...Array(fullStars)].map((_, index) => (
+            <BsFillStarFill key={`full-${index}`} />
+          ))}
+          {halfStar && <BsStarHalf />}
+          {[...Array(emptyStars)].map((_, index) => (
+            <BsStar key={`empty-${index}`} />
+          ))}
+        </>
+      )
+    }
   }
   useEffect(() => {
     getProducts()
@@ -40,6 +41,7 @@ const HomeScreens = () => {
           <div className="product-details">
             <div className="product-price">Price: ${item.price}</div>
 
+            <div className="product-rating">Rating: {renderStars(item.rating)}</div>
           </div>
         </div>
       ))}
