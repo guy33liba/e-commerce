@@ -2,16 +2,15 @@ import React, { useState } from "react"
 import products from "../Products"
 import "./HomeScreen.css" // Adjust this path based on your project structure
 
-const truncateDescription = (description, maxLength) => {
-  if (description.length <= maxLength) {
-    return description
-  }
-  return `${description.substring(0, maxLength)}...`
-}
-
 const HomeScreens = () => {
   const [expandedItems, setExpandedItems] = useState({}) // State to track expanded descriptions
 
+  const truncateDescription = (description, maxLength) => {
+    if (description.length <= maxLength) {
+      return description
+    }
+    return `${description.substring(0, maxLength)}...`
+  }
   const toggleDescription = (index) => {
     setExpandedItems((prevExpandedItems) => ({
       ...prevExpandedItems,
