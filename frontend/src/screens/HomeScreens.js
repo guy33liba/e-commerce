@@ -51,8 +51,8 @@ const HomeScreens = () => {
                   close
                 </button>
               )}
-            </div>
             <div className="product-rating">Rating: {item.rating}</div>
+            </div>
           </div>
         </div>
       ))}

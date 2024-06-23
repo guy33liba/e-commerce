@@ -8,9 +8,8 @@
   width: 400px;
   border: 1px solid black;
   margin: 20px;
-display: flex;
-flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
 .product-image {
   width: 400px;
@@ -24,7 +23,7 @@ flex-direction: column;
   text-align: center;
 }
 .read-more {
-  font-size: 15px;
+  font-size: 20px;
 }
 .product-rating {
   color: rgb(80, 68, 1);

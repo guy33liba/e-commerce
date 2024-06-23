@@ -11,12 +11,12 @@ const Navbar = () => {
         <ul>
           <li className="nav-item">
             <a href="/cart" className="nav-link ">
-              login <BsCartFill />
+              cart <BsCartFill />
             </a>
           </li>
           <li className="nav-item">
             <a href="/Login" className="nav-link">
-              <FiLogIn />
+              login <FiLogIn />
             </a>
           </li>
         </ul>
